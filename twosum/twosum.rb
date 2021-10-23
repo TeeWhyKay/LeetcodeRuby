@@ -12,6 +12,6 @@ def twosum(nums, target)
   end
 end
 
-pp twosum([2,7,11,15], 9)
-pp twosum([0,4,3,0], 0)
-pp twosum([-3,4,3,90], 0)
+pp twosum([2,7,11,15], 9) # [0,1]
+pp twosum([0,4,3,0], 0) # [0,3]
+pp twosum([-3,4,3,90], 0) # [0,2]
